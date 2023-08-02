@@ -1,0 +1,13 @@
+{
+  "name": "Dad Jokes",
+  "description": "Bored...Read A Joke :)",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "PopUp.HTML"
+  },
+  "icons": {
+    "128": "skull.png"
+  },
+  "permissions": ["activeTab"]
+}

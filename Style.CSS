@@ -1,0 +1,25 @@
+.outerDiv {
+  height: 10rem;
+  width: 10rem;
+
+  background-image: url(scenery.png);
+  background-position: bottom;
+  background-size: contain;
+  background-clip: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.innerDiv {
+  height: auto;
+  width: 8rem;
+
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 0.5rem;
+
+  color: black;
+
+  padding: 0.5rem;
+}
